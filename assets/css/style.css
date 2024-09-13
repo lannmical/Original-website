@@ -1,3 +1,125 @@
-h1{
-    color: red;
+header{
+    width: 100vw;
+    height: 45px;
+    background-color: #333;
+    
+}
+
+header>span{
+    color: white;
+    font-size: 30px;
+}
+
+main{
+    width: 100vw;
+}
+
+#section-01{
+    width: 100vw;
+    height: 93vh;
+    background-image: url(../img/東京駅.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section-02{
+    width: 100vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-02>p{
+    text-align: center;
+}
+
+#section-03{
+    width: 100vw;
+    background-color: #FFFFDD;
+}
+
+.section-title{
+    color: #333;
+    text-align: center;
+    padding: 75px;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.article-title{
+    color: #333;
+    text-align: center;
+    padding: 45px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.c-3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.spot{
+    width: 30%;
+    height: 40vw;
+    background-color: #FFFFDD;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.spot>img{
+    width: 85%;
+    aspect-ratio: 1/1;
+    padding-top: 20px;
+}
+
+.spot>h2{
+    font-size: 19px;
+}
+
+.spot>p{
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 16px;
+    margin: 0 20px 20px 20px;
+    line-height: 20px;
+}
+
+#p-01{
+    height: 227px;
+}
+
+.spot>button{
+    font-size: 16px;
+    background-color: white;
+
+
+}
+
+footer{
+    width: 100vw;
+    height: 120px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
